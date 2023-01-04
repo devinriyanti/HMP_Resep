@@ -1,0 +1,83 @@
+<div class="page" data-name="editresep">
+    <div class="page-content">
+        <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner sliding">
+                <div class="left">
+                    <a href="#" class="back link icon-only color-black">
+                        <i class="icon icon-back"></i>
+                    </a>
+                </div>
+                <div class="title">Edit Resep</div>
+            </div>
+        </div>
+        <form method="POST" class="form-ajax-submit">
+            <div class="list no-hairlines-md">
+                <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Nama</div>
+                            <div class="item-input-wrap">
+                                <input id="tx_nama" type="text" placeholder="Masukan Nama Masakan" required/>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Deskripsi</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_deskripsi" placeholder="Masukan Deskripsi Masakan" rows="4"></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Bahan</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_bahan" placeholder="Masukan Bahan" rows="4"></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Langkah</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_langkah" placeholder="Masukan Langkah" rows="6"></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">URL</div>
+                            <div class="item-input-wrap">
+                                <input id="tx_foto" type="text" placeholder="Masukan URL Gambar" required/>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Kategori</div>
+                            <div class="item-input-wrap">
+                                <ul id="ul_kategori"></ul>
+                                <select placeholder="Pilih Kategori" id="sel_kategori">
+                                    
+                                </select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <input type="button" name="btnsubmit" id="btnsubmit"
+                                class="button button-fill button-big" value="SUBMIT">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
